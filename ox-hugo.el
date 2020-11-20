@@ -1684,10 +1684,10 @@ INFO is a plist used as a communication channel."
 
 ;;;; Check if lang is CJ(K)
 (defun org-hugo--lang-cjk-p (info)
-  "Return non-nil is the language is Chinese or Japanese.
+  "Return non-nil is the language from INFO is Chinese or Japanese.
 
-(Check for Korean language has not been added as no `ox-hugo'
-user has requested for it.)"
+Check for Korean language has not been added as no `ox-hugo'
+user has requested for it."
   (let* ((lang (org-hugo--get-lang info))
          (lang-2chars (when (and (stringp lang)
                                  (>= (length lang) 2))
