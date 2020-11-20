@@ -1,0 +1,2 @@
+(ox-blackfriday :fetcher github :repo "kaushalmodi/ox-hugo"
+                :files ("ox-blackfriday.el"))

@@ -1,0 +1,3 @@
+(ox-hugo :fetcher github
+         :repo "kaushalmodi/ox-hugo"
+         :files (:defaults (:exclude "ox-blackfriday.el")))

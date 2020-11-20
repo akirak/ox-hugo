@@ -3,7 +3,7 @@
 ;; Authors: Kaushal Modi <kaushal.modi@gmail.com>
 ;;          Matt Price <moptop99@gmail.com>
 ;; URL: https://ox-hugo.scripter.co
-;; Package-Requires: ((emacs "24.4") (org "9.0"))
+;; Package-Requires: ((emacs "24.4") (org "9.0") (ox-blackfriday "0.1"))
 ;; Keywords: Org, markdown, docs
 ;; Version: 0.7
 
